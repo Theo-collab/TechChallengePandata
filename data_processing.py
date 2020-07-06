@@ -13,15 +13,6 @@ from sklearn.cluster import KMeans
 import json
 import codecs
 import os
-import re
-from selenium import webdriver
-from selenium.webdriver.common.keys import Keys
-import argparse
-import requests
-import urllib.request
-import moxing as mox
-from lxml import html
-from pathlib import Path
 
 # See available data in the parallel file system
 mox.file.shift('os', 'mox')
