@@ -1,9 +1,6 @@
 #!/usr/bin/env python
 # coding: utf-8
 
-# Install
-get_ipython().system('pip install -U selenium')
-
 # Libraries
 import pandas as pd
 import moxing as mox
